@@ -1,0 +1,37 @@
+Package: MMRDetect
+Title: Mutational Signature-based Classifier for Detecting Mismatch Repair Deficiency in Tumors
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Xueqing",
+           family = "Zou",
+           role = c("aut", "cre"),
+           email = "xz388@cam.ac.uk",
+           comment = c(ORCID = "0000-0003-1143-1028"))
+Description: MMRDetect is a logistic regression classifier using new mutational-signatures-based parameters to detect MMR-deficient tumors.
+License: `use_mit_license()`
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports:
+    reshape2,
+    plyr,
+    gridExtra,
+    scales,
+    factoextra,
+    VariantAnnotation,
+    GenomicFeatures,
+    BSgenome.Hsapiens.UCSC.hg19,
+    Biostrings,
+    signature.tools.lib,
+    stats,
+    rlang
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+
+
